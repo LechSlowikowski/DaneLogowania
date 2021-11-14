@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DaneLogowania</string>
+    <string name="uwierzytelnianie">Uwierzytelnianie</string>
+    <string name="login">Login:</string>
+    <string name="wprowadz_login">Wprowadź login</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="wprowadz_adres_e_mail">Wprowadź adres e-mail</string>
+    <string name="haslo">Hasło</string>
+    <string name="zatwierdz">Zatwierdź</string>
+    <string name="autor">Autor 23456789012</string>
 </resources>

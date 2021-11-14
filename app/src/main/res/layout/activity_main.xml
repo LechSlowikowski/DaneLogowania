@@ -10,38 +10,38 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Uwierzytelnianie"
-        android:textSize="32sp"
-        android:background="#008080"
-        android:textColor="#FFFFFF"/>
+        android:text="@string/uwierzytelnianie"
+        android:textSize="@dimen/duzeLitery"
+        android:background="@color/morski"
+        android:textColor="@color/bialy"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login:" />
+        android:text="@string/login" />
     <EditText
         android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wprowadź login"
+        android:hint="@string/wprowadz_login"
         android:imeOptions="actionNext" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="E-mail:" />
+        android:text="@string/e_mail" />
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wprowadź adres e-mail"
+        android:hint="@string/wprowadz_adres_e_mail"
         android:imeOptions="actionNext"
         android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hasło" />
+        android:text="@string/haslo" />
     <EditText
         android:id="@+id/haslo"
         android:layout_width="match_parent"
@@ -53,9 +53,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Zatwierdź"
+        android:text="@string/zatwierdz"
         android:textColor="#000000"
-        android:backgroundTint="#C5C5C5"
+        android:backgroundTint="@color/szary"
         android:onClick="zatwierdz"/>
 
     <TextView
@@ -64,5 +64,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Autor 23456789012" />
+        android:text="@string/autor" />
 </LinearLayout>
